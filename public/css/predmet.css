@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10%;
+}
+
+
+#listeodsjeka {
+    float: top;
+}
+
+#glavnalista li {
+    display: inline-block;
+}
+
+#glavnalista li li{
+    display: block;
+}
+
+#glavnalista li li li{
+    display: block;
+}
+
+#glavnalista li li li li {
+    display:inline-block;
+}
+
+.popisgodinapodlista{
+    padding-left: 0px;
+}
+
+#glavnalista li{
+    padding-top: 0px;
+    margin-left: 0px;
+}
+
+#glavnalista li:not(:last-child) {
+    margin-right: 7px;
+}
+
+body:not(#listeodsjeka) {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    margin:auto;
+}
+
+@media screen and (min-width: 1088px) {
+    #listeodsjeka {
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: azure;
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1087px) {
+    #listeodsjeka {
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: azure;
+        top: 0;
+    }
+}
+
+.podlista ul li{
+    padding-left: 0px;
+}
+
+
+.naslovodsjeka {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.izborni {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: powderblue;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.obavezni {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ne_ide {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: gray;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ikona_predmeta {
+    height: 40px;
+    width: 55px;
+}
+
+@media only screen and (min-width: 320px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .gridpredmeti {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-columns: minmax(200px, 200px);
+        grid-auto-rows: minmax(100px,100px);
+        padding: 10px;
+        margin:auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+
+

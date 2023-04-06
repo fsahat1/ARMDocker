@@ -1,0 +1,26 @@
+[
+    {
+        "nastavnik": {
+            "username": "nastavnik1",
+            "password_hash": "$2b$10$ExgBJF2MHs0xctC22aZKtuFzS8j4RpjUeiIh48rbyvwhAm9y.3ZRq"
+        },
+        "predmeti": [
+            "Matematika",
+            "Fizika",
+            "Hemija",
+            "Muzička kultura"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "nastavnik2",
+            "password_hash": "$2b$10$lYvQr9L4VmG1NcFY.DMpgOI.FPL9dXEb9h/sO.kij32mweo0fDMDW"
+        },
+        "predmeti": [
+            "Sport",
+            "Likovna kultura",
+            "Biologija",
+            "Historija"
+        ]
+    }
+]
